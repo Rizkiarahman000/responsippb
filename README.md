@@ -273,7 +273,3 @@ Server akan berjalan di `http://localhost:3000`. Uji dengan membuka `http://loca
 - **Base URL:** https://responsippb-eight.vercel.app
 - **Health Check:** https://responsippb-eight.vercel.app/health
 - **Contoh Filter:** https://responsippb-eight.vercel.app/loans?status=Terlambat
-
-## 📝 Lisensi
-
-MIT
