@@ -41,7 +41,7 @@ Skema SQL lengkap tersedia di file [`supabase_schema.sql`](./supabase_schema.sql
 
 ## 🔌 Endpoint
 
-Base URL: `https://perpustakaan-peminjaman-api.vercel.app`
+Base URL: `https://responsippb-eight.vercel.app`
 
 | Method | Endpoint        | Deskripsi |
 |--------|-----------------|-----------|
@@ -193,6 +193,32 @@ Base URL: `https://perpustakaan-peminjaman-api.vercel.app`
 }
 ```
 
+## 📸 Dokumentasi Pengujian
+
+Berikut hasil pengujian endpoint menggunakan **Postman**:
+
+### GET `/loans` — Menampilkan Semua Data
+
+![GET /loans](docs/images/GET.png)
+
+### POST `/loans` — Menambah Data
+
+![POST /loans](docs/images/POST.png)
+
+### GET `/loans?status=` — Filter Data
+
+![FILTER /loans](docs/images/FILTER.png)
+
+### PUT `/loans/:id` — Memperbarui Data
+
+![UPDATE /loans](docs/images/UPDATE.png)
+
+### DELETE `/loans/:id` — Menghapus Data
+
+![DELETE /loans](docs/images/DELETE.png)
+
+---
+
 ## 🚀 Panduan Instalasi & Menjalankan Secara Lokal
 
 ### Prasyarat
@@ -244,9 +270,9 @@ Server akan berjalan di `http://localhost:3000`. Uji dengan membuka `http://loca
 
 ## 🌐 Link Hasil Deployment Vercel
 
-- **Base URL:** https://perpustakaan-peminjaman-api.vercel.app
-- **Health Check:** https://perpustakaan-peminjaman-api.vercel.app/health
-- **Contoh Filter:** https://perpustakaan-peminjaman-api.vercel.app/loans?status=Terlambat
+- **Base URL:** https://responsippb-eight.vercel.app
+- **Health Check:** https://responsippb-eight.vercel.app/health
+- **Contoh Filter:** https://responsippb-eight.vercel.app/loans?status=Terlambat
 
 ## 📝 Lisensi
 
